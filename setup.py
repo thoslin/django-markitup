@@ -55,6 +55,7 @@ setup(
     zip_safe=False,
     test_suite='runtests.runtests',
     tests_require='Django>=1.3',
+    install_requires = ['bleach==1.1.1'],
     package_data={'markitup': ['templates/markitup/*.html'] +
                               _static_files('static')}
 )
